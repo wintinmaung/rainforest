@@ -1,0 +1,97 @@
+
+#header ul {
+margin:0px;
+padding:0px;
+list-style:none;
+
+} 
+
+
+#header li {
+float:left;
+margin:0px;
+padding:0px;
+
+}
+
+
+#header li a{
+display:block;
+width:150px;
+background-color:lightblue;
+margin-right:5px;
+color: red;
+text-align:center;
+text-decoration: none;
+
+
+}
+
+.a{
+	color: maroon;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 24.99%;}
+.col-4{width: 33.32%;
+border: 1px solid black;
+padding: 20px;}
+.col-5{width: 41.65%;}
+.col-6{width: 49.98%; 
+}
+.col-7{width: 58.31%;}
+.col-8{width: 66.64%;}
+.col-9{width: 74.97%;}
+.col-10{width: 83.3%;}
+.col-11{width: 91.63%;}
+.col-12{width: 100%;}
+
+
+.row {
+
+	display: inline-flex;
+	width: 100%;
+	border: 1px solid black;
+	padding: 20px;
+	width: 100%;
+	color: red;
+
+}
+
+
+/*body{
+	background-image: url('images.jpg');
+	background-size: 100%;
+	
+	}
+
+*/
+.center {
+	position: center;
+	background-position: center;
+	text-align: center;
+	padding: 20px;
+}	
+
+.map {
+	width: 100%;
+	}
